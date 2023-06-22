@@ -1,38 +1,56 @@
+/* 
+
+
+
+
+
+body{
+background-color: rgb(130, 43, 130);
+display: flex;
+text-align: center;
+justify-content: center;
+}
+h1{
+  color: aliceblue;
+}
 .App {
-  text-align: center;
+  background-color: rgb(58, 16, 98);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tt{
+  border-radius: 4px;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li{
+  color: aliceblue;
+}
+.todo-inp{
+  background-color: rgb(58, 16, 98);
+  border: 2px solid antiquewhite;
+  border-color: antiquewhite;
+  color: aliceblue;
+  padding: 0.5rem 1rem;
+}
+.todo-lis{
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: left;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.todo-del{
+  margin-left: 1rem;
+  background-color: rgb(58, 16, 98);
+  color: aliceblue;
+  border-color: antiquewhite;
+  cursor: pointer;
+  margin-left: auto;
+  justify-content: space-between;
+} */
+/* .add-btn{
+  margin-left: 1rem;
+  background-color: rgb(58, 16, 98);
+  border-color: antiquewhite;
+  color: aliceblue;
+  cursor: pointer;
+} */
